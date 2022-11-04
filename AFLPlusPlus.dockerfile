@@ -82,4 +82,5 @@ RUN git clone --depth=1 https://github.com/vanhauser-thc/afl-cov && \
 
 WORKDIR /AFLplusplus
 RUN git clone https://github.com/AFLplusplus/AFLplusplus.git .
-RUN make distrib
+RUN make source-only
+
